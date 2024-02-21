@@ -42,7 +42,7 @@ function ContactForm() {
                   style={{ transition: "all .3s" }}
                   className="text-white p-[9px] text-[15px] xl:w-[40%] lg:w-[80%] rounded-[50px] px-[20px] hover:bg-[#03A4ED] bg-[#FF695F]"
                 >
-                  Submit Request
+                  Submit Reque
                 </button>
               </div>
             </div>
