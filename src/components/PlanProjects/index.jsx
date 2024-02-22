@@ -33,8 +33,8 @@ const Planprojects = () => {
               our plans
             </p>
           </div>
-          <BgCarts />
-          <Subscribe /> 
+          {/* <BgCarts />
+          <Subscribe />  */}
         </div>
       </div>
     </div>
