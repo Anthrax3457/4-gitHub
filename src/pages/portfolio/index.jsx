@@ -104,7 +104,7 @@ const ProjectSlider = () => {
   };
   return (
     <>
-      <div id="video" className="slider-container">
+      <div className="slider-container">
         <Slider {...settings} className="relative">
           {imagesSlide.map((slide, index) => {
             return (
@@ -164,4 +164,3 @@ const ProjectSlider = () => {
 };
 
 export default ProjectSlider;
-

@@ -1,13 +1,7 @@
-
-
-import React, { useEffect, useState } from "react";
-
-import "aos/dist/aos.css";
-import AOS from "aos";
-// styles
-import "./style.css";
+import React from 'react'
 
 const ProjectVideo = () => {
+
   const [isActive, setIsActive] = useState("first");
   let url;
   let videoTitle;
@@ -35,10 +29,10 @@ const ProjectVideo = () => {
   }
 
   return (
-    <section id="portfolio" className="projectVideo py-[30px] w-full">
+    <section  className="projectVideo py-[30px] w-full">
       <div className="site-container w-full flex gap-[12px] max-[991px]:flex-col max-[991px]:gap-y-[30px]">
         <div
-          data-aos="fade-right"
+         data-aos="fade-right"
           className="relative w-[856px] h-[675px] max-[1399px]:w-[736px] max-[1399px]:h-[675px] max-[1199px]:w-[616px] max-[991px]:w-[696px] max-[991px]:h-[500px] max-[767px]:w-[516px] max-[575px]:max-w-full"
         >
           <iframe
