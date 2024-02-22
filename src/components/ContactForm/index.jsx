@@ -1,5 +1,5 @@
 import React from "react";
-import Imgs from "../../assets/images/contact-form-bg.png";
+// import Imgs from "../../assets/images/contact-form-bg.png";
 
 function ContactForm() {
   return (
@@ -15,6 +15,23 @@ function ContactForm() {
                 style={{ border: "0" }}
                 // allowfullscreen=""
               ></iframe>
+              <div>
+                <p className="text-[30px] w-[90%] text-center md:text-left font-bold">
+                  <span className="text-[#2A2A2A]">Feel Free To</span>
+                  <span className="text-[#03A4ED] ml-2 ">Contact </span>{" "}
+                  <span className="text-[#2A2A2A]">Us Via The</span>
+                  <span className="text-[#FB675E] ml-2">HTML Form</span>{" "}
+                </p>
+              </div>
+              <div className="h-full">
+                <iframe
+                  className="w-[100%] lg:rounded-l-[40px] rounded-[30px] lg:rounded-[0px] lg:h-[70%] h-[400px] lg:mt-[60px] xl:mt-[20px]"
+                  src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  style={{ border: "0" }}
+                  allowfullscreen=""
+                ></iframe>
+              </div>
             </div>
             <div className=" xl:w-[42%] shad h-[455px] p-[68px] lg:w-[40%] w-full mt-20 lg:mt-0 xl:mt-0 ">
               <div className="flex flex-col gap-11">
