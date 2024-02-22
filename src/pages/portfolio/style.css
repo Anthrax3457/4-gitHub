@@ -104,7 +104,7 @@
   content: "\f053";
   color: white;
   font-size: 15px;
-  font-family: "FontAwesome";
+  /* font-family: "FontAwesome"; */
 }
 
 .slider-container .slick-next {
@@ -128,7 +128,7 @@
   content: "\f054";
   color: white;
   font-size: 15px;
-  font-family: "FontAwesome";
+  /* font-family: "FontAwesome"; */
 }
 
 .slider-container .slick-prev:hover,
