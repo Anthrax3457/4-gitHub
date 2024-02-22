@@ -101,10 +101,10 @@
 }
 
 .slider-container .slick-prev::before {
-  content: "\f053";
+  /* content: "\f053"; */
   color: white;
-  font-size: 15px;
-  /* font-family: "FontAwesome"; */
+  font-size: 35px;
+  font-family: "FontAwesome";
 }
 
 .slider-container .slick-next {
@@ -125,10 +125,10 @@
 }
 
 .slider-container .slick-next::before {
-  content: "\f054";
+  /* content: "\f054"; */
   color: white;
-  font-size: 15px;
-  /* font-family: "FontAwesome"; */
+  font-size: 35px;
+  font-family: "FontAwesome";
 }
 
 .slider-container .slick-prev:hover,
