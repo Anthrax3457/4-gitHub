@@ -1,7 +1,4 @@
 import React from "react";
-import Manage from "../../components/Management";
-import Footer from "../../components/Footer";
-
 import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
 import ContactForm from "../../components/ContactForm";
@@ -9,6 +6,8 @@ import ContactForm from "../../components/ContactForm";
 const Home = () => {
   return (
     <div id="home">
+      <ThreeCarousel />
+      <Planprojects />
       <div>
         <Navbar />
         <Header />
