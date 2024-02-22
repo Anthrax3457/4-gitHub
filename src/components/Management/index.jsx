@@ -12,7 +12,7 @@ function Manage() {
         </div>
         <div>
           <div className="lg:p-0 p-5">
-            <h2 className="text-[#2a2a2a] lg:font-extrabold font-bold text-[30px] block justify-items-center lg:p-0 lg:w-[85%] w-[95%]">
+            <h2 className="text-[#2a2a2a] lg:font-extrabold md:justify-items-center font-bold text-[30px] block justify-items-center lg:p-0 lg:w-[85%] w-[95%]">
               Grow your website with our
               <sapn className="text-[#03a4ed] p-3">SEO Tools</sapn> &amp;
               <span className="text-[#ff695f] p-2">Project</span> Management
