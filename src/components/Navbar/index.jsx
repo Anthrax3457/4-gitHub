@@ -1,17 +1,46 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../../assets/images/logo.png";
+import { FaTimes } from "react-icons/fa";
+import { AiOutlineMenu } from "react-icons/ai";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
+
+  const [scrolled, setScrolled] = useState(false);
+  // const [active, setActive] = useState("#hero");
+  // const [show, setShow] = useState(false);
+  // const [search, setSearch] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check the scroll position and update the state
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    // Attach the scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
-      <div className="bg-[#FAFAFA] py-12">
+      <div
+        className={`fixed top-0 left-0 w-full lg:mt-[-28px] xl:mt-[0px]  z-[999] ${
+          scrolled
+            ? " bg-white shadow-lg py-[20px] "
+            : " bg-[#F8F9FD] py-[30px]"
+        }`}
+      >
         <div className="flex justify-between items-center xl:w-[85%] w-[90%] lg:w-[94%] md:w-[98%] m-auto">
           <div>
             <img src={Logo} alt="" />
           </div>
-          <div className="hidden md:flex">
+          <div className="lg:flex hidden">
             <div className="flex xl:gap-[46px] lg:gap-[40px] md:gap-[13px]  items-center">
               <p
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
@@ -57,15 +86,19 @@ function Navbar() {
               </button>
             </div>
           </div>
-          <div className="md:hidden flex ">
+          <div className="lg:hidden flex ">
             <button
-              className="h-[45px]  px-4 rounded-[70px] text-[#7C7C7D] border "
+              className="h-[45px]  px-4 rounded-[70px] text-[#000000]  "
               onClick={() => {
                 setOpen(!open);
                 setMenu(!menu);
               }}
             >
-              ok
+              {menu ? (
+                <FaTimes color="black" fontSize={"30px"} />
+              ) : (
+                <AiOutlineMenu color="black" fontSize={"30px"} />
+              )}
             </button>
             <div
               className={`w-[90%] ${

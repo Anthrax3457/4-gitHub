@@ -23,7 +23,7 @@ function Header() {
                 delay: 3000,
                 disableOnInteraction: false,
               }}
-              className="mySwiper"
+              className="headerCarousel"
             >
               <SwiperSlide>
                 <div>
