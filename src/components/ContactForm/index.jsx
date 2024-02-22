@@ -4,7 +4,7 @@ import React from "react";
 function ContactForm() {
   return (
     <div>
-      <div className="TwoBG w-full mt-[900px] h-[100vh]">
+      <div className="TwoBG w-full mt-[300px] h-[100vh]">
         <div className="Therr   h-[100vh]">
           <div className="w-[85%] lg:flex block  m-auto">
             <div className="lg:w-[50%] w-full ">

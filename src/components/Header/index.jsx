@@ -35,7 +35,7 @@ function Header() {
                     <span className="text-[#03A4ED] ml-2 ">
                       best ideas
                     </span>{" "}
-                    <span className="text-[#FB675E]">your website</span>{" "}
+                    <span className="text-[#FB675E]">your website</span>
                     <span className="text-[#2A2A2A]">for</span>
                   </p>
                 </div>
@@ -118,14 +118,13 @@ function Header() {
                     <span className="text-[#2A2A2A]">Get the</span>
                     <span className="text-[#03A4ED] ml-2 ">
                       best ideas
-                    </span>{" "}
+                    </span>
                     <span className="text-[#FB675E]">your website</span>{" "}
                     <span className="text-[#2A2A2A]">for</span>
                   </p>
                 </div>
                 <div>
                   <p className="text-[15px] text-[#2A2A2A]">
-                    {" "}
                     You are NOT allowed to redistribute this template ZIP file
                     on any Free CSS collection websites. Contact us for more
                     info. Thank you.
