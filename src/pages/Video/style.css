@@ -1,9 +1,6 @@
-
-  
-
   .projectVideo {
-    background: url(/images/videos-left-dec.png),
-      url(/images/videos-right-dec.png);
+    background: url('../../assets/images/videos-left-dec.png'),
+      url('../../assets/images/videos-right-dec.png');
     background-repeat: no-repeat;
     background-position: 0 30px, right -10px;
   }
@@ -50,25 +47,25 @@
   }
   
   .projects-block__item:nth-child(1) {
-    background: url(/images/video-thumb-01.png);
+    background: url('../../assets/images/video-thumb-01.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .projects-block__item:nth-child(2) {
-    background: url(/images/video-thumb-02.png);
+    background: url('../../assets/images/video-thumb-02.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .projects-block__item:nth-child(3) {
-    background: url(/images/video-thumb-03.png);
+    background: url('../../assets/images/video-thumb-03.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .projects-block__item:nth-child(4) {
-    background: url(/images/video-thumb-04.png);
+    background: url('../../assets/images/video-thumb-04.png');
     background-repeat: no-repeat;
     background-size: cover;
   }

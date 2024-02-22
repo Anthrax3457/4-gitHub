@@ -1,4 +1,8 @@
-import React from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import AOS from "aos";
+import React, { useEffect, useState } from 'react'
+import "./style.css"
 
 const ProjectVideo = () => {
 

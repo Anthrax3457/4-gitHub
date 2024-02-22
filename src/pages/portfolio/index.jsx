@@ -2,6 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import img1 from "../../assets/images/portfolio-left-dec.png";
+import img1 from "../../assets/images/portfolio-01.jpg";
+import img2 from "../../assets/images/portfolio-02.jpg";
+import img3 from "../../assets/images/portfolio-03.jpg";
+import img4 from "../../assets/images/portfolio-04.jpg";
 
 // styles
 import "./style.css";
@@ -9,62 +14,62 @@ import "./style.css";
 const ProjectSlider = () => {
   const imagesSlide = [
     {
-      img: "portfolio-01.jpg",
+      img: img1,
       title: "First Project",
       type: "Digital Assets",
     },
     {
-      img: "portfolio-02.jpg",
+      img: img2,
       title: "Project Two",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-03.jpg",
+      img: img3,
       title: "Third Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-04.jpg",
+      img: img4,
       title: "Project Four",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-01.jpg",
+      img: img1,
       title: "Fifth Project",
       type: "Digital Assets",
     },
     {
-      img: "portfolio-02.jpg",
+      img: img2,
       title: "Sixth Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-03.jpg",
+      img: img3,
       title: "7th Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-04.jpg",
+      img: img4,
       title: "8th Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-01.jpg",
+      img: img1,
       title: "9th Project",
       type: "Digital Assets",
     },
     {
-      img: "portfolio-02.jpg",
+      img: img2,
       title: "Project Ten",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-03.jpg",
+      img: img3,
       title: "Project Eleven",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-04.jpg",
+      img: img4,
       title: "12th Project",
       type: "SEO & Marketing",
     },
@@ -114,7 +119,7 @@ const ProjectSlider = () => {
               >
                 <div className="project-slide relative mx-auto">
                   <img
-                    src={`/images/${slide.img}`}
+                    src={slide.img}
                     alt=""
                     className="rounded-[23px] w-full h-full object-cover transition-all duration-500"
                   />
