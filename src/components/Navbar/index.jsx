@@ -6,8 +6,8 @@ function Navbar() {
   const [menu, setMenu] = useState(false);
   return (
     <div>
-      <div className="bg-[#FAFAFA] py-12">
-        <div className="flex justify-between items-center xl:w-[85%] w-[90%] lg:w-[94%] md:w-[98%] m-auto">
+      <div className="bg-[#FAFAFA]  py-12">
+        <div className="flex justify-between items-center xl:w-[85%] w-[90%] lg:w-[94%] md:w-[98%] top-0 m-auto">
           <div>
             <img src={Logo} alt="" />
           </div>

@@ -8,11 +8,13 @@ import ContactForm from "../../components/ContactForm";
 const Home = () => {
   return (
     <div id="home">
-      <ThreeCarousel />
+      <Navbar />
+      <Header />
+      <div className="mt-[700px]">
+        <ThreeCarousel />
+      </div>
       <Planprojects />
       <div>
-        <Navbar />
-        <Header />
         <ContactForm />
       </div>
     </div>
