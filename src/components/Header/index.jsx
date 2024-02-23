@@ -14,7 +14,7 @@ function Header() {
   return (
     <div>
       <div className="lg:flex block mt-11">
-        <div className="HedBG lg:w-[50%] xl:w-[10%] md:w-[100%] w-[100%] pt-52 lg:mt-10 xl:mt-0 lg:pl-[111px] pl-[20px]">
+        <div className="HedBG lg:w-[50%] xl:w-[100%] md:w-[100%] w-[100%] pt-52 lg:mt-10 xl:mt-0 lg:pl-[111px] pl-[20px]">
           <div>
             <Swiper
               modules={[Navigation, Autoplay]}
