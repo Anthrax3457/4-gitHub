@@ -70,7 +70,7 @@ const Footer = () => {
               <p className="text-[18px] font-bold">Community</p>
             </div>
             <br />
-            <div className="text-[15px] text-[#afafaf] grid gap-5">
+            <div className="text-[15px] text-[#afafaf] flex flex-col gap-5">
               <p className="hover:text-[#ff695f] cursor-pointer">
                 Digital Marketing
               </p>
@@ -92,17 +92,17 @@ const Footer = () => {
               <p className="text-[18px] font-bold">Subcribe Newsletters</p>
             </div>
             <br />
-            <div className="text-[15px] text-[#afafaf] grid gap-5 lg:w-[90%] xl:w-[80%] md:w-full w-[95%]">
+            <div className="text-[15px] text-[#afafaf] grid gap-5 lg:w-[90%] xl:w-[88%] md:w-full w-[95%]">
               <p className="text-[15px]">
                 Get our latest news and ideas to your inbox
               </p>
-              <div className="w-full">
+              <div className="w-full flex items-center justify-center bg-[#03A4ED] rounded-full px-[5%] h-[45px]">
                 <input
                   type="text"
                   placeholder="Your Email"
-                  className="lg:w-full md:w-[95%] sm:w-full w-full p-4 bg-blue-500 rounded-full placeholder:text-white pl-7"
+                  className="lg:w-full md:w-[95%] xl:w-full outline-none sm:w-full w-full bg-[#03A4ED]   placeholder:text-white pl-7"
                 />
-                <button className="absolute right-[14%] xl:right-[7.5%] lg:right-[4%] pt-4">
+                <button className="absolute right-[14%] xl:right-[9.5%] lg:right-[4%] ">
                   <TbBrandTelegram size={20} color="white" />
                 </button>
               </div>
