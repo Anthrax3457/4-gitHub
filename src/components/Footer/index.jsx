@@ -101,6 +101,7 @@ const Footer = () => {
                   type="text"
                   placeholder="Your Email"
                   className="lg:w-full md:w-[95%] xl:w-full outline-none sm:w-full w-full bg-[#03A4ED]   placeholder:text-white pl-7"
+                  className="w-full text-white outline-none p-4 bg-blue-500 rounded-full placeholder:text-white pl-7"
                 />
                 <button className="absolute right-[14%] xl:right-[9.5%] lg:right-[4%] ">
                   <TbBrandTelegram size={20} color="white" />
