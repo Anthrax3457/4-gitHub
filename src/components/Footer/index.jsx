@@ -100,7 +100,7 @@ const Footer = () => {
                 <input
                   type="text"
                   placeholder="Your Email"
-                  className="lg:w-full md:w-[95%] sm:w-full w-full p-4 bg-blue-500 rounded-full placeholder:text-white pl-7"
+                  className="w-full text-white outline-none p-4 bg-blue-500 rounded-full placeholder:text-white pl-7"
                 />
                 <button className="absolute right-[14%] xl:right-[7.5%] lg:right-[4%] pt-4">
                   <TbBrandTelegram size={20} color="white" />
