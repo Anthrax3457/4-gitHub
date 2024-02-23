@@ -29,12 +29,12 @@ const Planprojects = () => {
             <p className="text-[20px] font-bold">
               Select A Suitable Plan For <br /> Your Next Projects
             </p>
-            <p className="text-[22px] uppercase font-bold text-[#fec6c0]">
+            <p className="text-[22px] uppercase font-bold text-[#fec6c0] pb-10 pt-6">
               our plans
             </p>
           </div>
-          <BgCarts />
-          <Subscribe /> 
+          {/* <BgCarts />
+          <Subscribe />  */}
         </div>
       </div>
     </div>

@@ -1,4 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+
+import "aos/dist/aos.css";
+import AOS from "aos";
+// styles
+import "./style.css";
 
 const ProjectVideo = () => {
 
@@ -29,7 +34,7 @@ const ProjectVideo = () => {
   }
 
   return (
-    <section  className="projectVideo py-[30px] w-full">
+    <section  className="projectVideo pl-[6%] py-[30px] w-full">
       <div className="site-container w-full flex gap-[12px] max-[991px]:flex-col max-[991px]:gap-y-[30px]">
         <div
          data-aos="fade-right"
@@ -53,7 +58,7 @@ const ProjectVideo = () => {
         <div className="projects-block w-[440px] px-[12px] flex flex-col gap-[30px] max-[1399px]:w-[380px] max-[1199px]:w-[296px] max-[991px]:w-full max-[767px]:w-[516px] max-[575px]:max-w-full max-[575px]:p-0">
           <div
             onClick={() => setIsActive("first")}
-            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px]"
+            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px] max-[478px]:h-[144px] max-[380px]:h-[126px] max-[330px]:h-[105px]"
           >
             <div className="projects-block-overlay absolute top-0 left-0 rounded-tl-[23px] rounded-br-[23px] flex flex-col justify-center items-center max-[992px]:rounded-tl-[50px] max-[992px]:rounded-br-[50px]">
               <button className="text-white text-[20px] font-bold">
@@ -74,7 +79,7 @@ const ProjectVideo = () => {
           </div>
           <div
             onClick={() => setIsActive("second")}
-            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px]"
+            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px] max-[478px]:h-[144px] max-[380px]:h-[126px] max-[330px]:h-[105px]" 
           >
             <div className="projects-block-overlay absolute top-0 left-0 rounded-tl-[23px] rounded-br-[23px] flex flex-col justify-center items-center max-[992px]:rounded-tl-[50px] max-[992px]:rounded-br-[50px]">
               <button className="text-white text-[20px] font-bold">
@@ -97,7 +102,7 @@ const ProjectVideo = () => {
           </div>
           <div
             onClick={() => setIsActive("third")}
-            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px]"
+            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px] max-[478px]:h-[144px] max-[380px]:h-[126px] max-[330px]:h-[105px]"
           >
             <div className="projects-block-overlay absolute top-0 left-0 rounded-tl-[23px] rounded-br-[23px] flex flex-col justify-center items-center max-[992px]:rounded-tl-[50px] max-[992px]:rounded-br-[50px]">
               <button className="text-white text-[20px] font-bold">
@@ -120,7 +125,7 @@ const ProjectVideo = () => {
           </div>
           <div
             onClick={() => setIsActive("fourth")}
-            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px]"
+            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px] max-[478px]:h-[144px] max-[380px]:h-[126px] max-[330px]:h-[105px]"
           >
             <div className="projects-block-overlay absolute top-0 left-0 rounded-tl-[23px] rounded-br-[23px] flex flex-col justify-center items-center max-[992px]:rounded-tl-[50px] max-[992px]:rounded-br-[50px]">
               <button className="text-white text-[20px] font-bold">
