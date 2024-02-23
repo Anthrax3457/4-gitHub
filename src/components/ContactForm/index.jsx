@@ -14,7 +14,7 @@ function ContactForm() {
             <div className="lg:w-[55%] w-full ">
               <div>
                 <p className="text-[30px] mt-[-40px] w-[90%] text-center md:text-left font-bold">
-                  <span className="text-[#2A2A2A]">Feel Free To</span>
+                  <span className="text-[#2A2A2A]">Feel Free T</span>
                   <span className="text-[#03A4ED] ml-2 ">Contact </span>{" "}
                   <span className="text-[#2A2A2A]">Us Via The</span>
                   <span className="text-[#FB675E] ml-2">HTML Form</span>{" "}
