@@ -42,45 +42,51 @@ function Navbar() {
           </div>
           <div className="lg:flex hidden">
             <div className="flex xl:gap-[46px] lg:gap-[40px] md:gap-[13px]  items-center">
-              <p
+              <a
+                href="#home"
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
-                className="text-[#2a2a2a]  text-[17px] cursor-pointer hover:text-[#FF695F] font-medium"
+                className="text-[#2a2a2a] tracking-wider  text-[15px] cursor-pointer hover:text-[#FF695F] font-medium"
               >
                 Home
-              </p>
-              <p
+              </a>
+              <a
+                href="#service"
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
-                className="text-[#2a2a2a] text-[17px] cursor-pointer  hover:text-[#FF695F] font-medium"
+                className="text-[#2a2a2a] tracking-wider text-[15px] cursor-pointer  hover:text-[#FF695F] font-medium"
               >
                 Service
-              </p>
-              <p
+              </a>
+              <a
+                href="#about"
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
-                className="text-[#2a2a2a] text-[17px] cursor-pointer  hover:text-[#FF695F] font-medium"
+                className="text-[#2a2a2a] tracking-wider text-[15px] cursor-pointer  hover:text-[#FF695F] font-medium"
               >
                 About
-              </p>
-              <p
+              </a>
+              <a
+                href="#portfolio"
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
-                className="text-[#2a2a2a] text-[17px] cursor-pointer  hover:text-[#FF695F] font-medium"
+                className="text-[#2a2a2a] tracking-wider text-[15px] cursor-pointer  hover:text-[#FF695F] font-medium"
               >
                 Portfolio
-              </p>
-              <p
+              </a>
+              <a
+                href="#videos"
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
-                className="text-[#2a2a2a] text-[17px] cursor-pointer  hover:text-[#FF695F] font-medium"
+                className="text-[#2a2a2a] tracking-wider text-[15px] cursor-pointer  hover:text-[#FF695F] font-medium"
               >
                 Videos
-              </p>
-              <p
+              </a>
+              <a
+                href="#contact"
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
-                className="text-[#2a2a2a] text-[17px] cursor-pointer  hover:text-[#FF695F] font-medium"
+                className="text-[#2a2a2a] tracking-wider text-[15px] cursor-pointer  hover:text-[#FF695F] font-medium"
               >
                 Contact Us
-              </p>
+              </a>
               <button
                 style={{ transition: "all .3s" }}
-                className="text-white p-[9px] text-[15px] rounded-[50px] px-[30px] hover:bg-[#03A4ED] bg-[#FF695F]"
+                className="text-white tracking-wider xl:ml-7 lg:ml-0 md:ml-0 ml-0  p-[9px] xl:px-[22px] text-[15px] rounded-[50px] px-[30px] hover:bg-[#03A4ED] bg-[#FF695F]"
               >
                 Contact Us Now
               </button>
@@ -143,7 +149,7 @@ function Navbar() {
               <hr />
               <p
                 style={{ transition: "all .2s", textTransform: "capitalize" }}
-                className="text-[#2a2a2a] text-center text-[17px] cursor-pointer hover:text-[#FF695F] font-medium"
+                className="text-[#2a2a2a] tracking-wide text-center text-[17px] cursor-pointer hover:text-[#FF695F] font-medium"
               >
                 Contact Us
               </p>

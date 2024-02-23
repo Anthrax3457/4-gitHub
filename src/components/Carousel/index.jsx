@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 function ThreeCarousel() {
   return (
-    <div className="flex justify-center mt-28 md:w-[90%] w-[82%] h-[60vh] lg:w-[80%] m-auto">
+    <div id="service" className="flex  justify-center mt-28 md:w-[90%] w-[82%] h-[60vh] lg:w-[80%] m-auto">
       <Swiper
         slidesPerView={3}
         spaceBetween={30}

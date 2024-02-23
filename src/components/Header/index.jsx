@@ -1,5 +1,4 @@
 import { FaPhoneAlt } from "react-icons/fa";
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,9 +11,9 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 function Header() {
   return (
-    <div>
+    <div id="home">
       <div className="lg:flex block mt-11">
-        <div className="HedBG lg:w-[50%] xl:w-[100%] md:w-[100%] w-[100%] pt-52 lg:mt-10 xl:mt-0 lg:pl-[111px] pl-[20px]">
+        <div className="HedBG lg:w-[50%]  md:w-[100%] w-[100%] pt-52 lg:mt-10 xl:mt-0 lg:pl-[111px] pl-[20px]">
           <div>
             <Swiper
               modules={[Navigation, Autoplay]}
@@ -27,11 +26,13 @@ function Header() {
             >
               <SwiperSlide>
                 <div>
-                  <p className="text-[18px] text-[#ff695f]">Video Tutorials</p>
+                  <p className="text-[20px] font-semibold text-[#ff695f]">
+                    Online Marketing
+                  </p>
                 </div>
                 <div>
                   <p className="text-[50px] font-bold">
-                    <span className="text-[#2A2A2A]">Online Marketing</span>
+                    <span className="text-[#2A2A2A]"></span>
                     <span className="text-[#03A4ED] ml-2 ">Get the</span>{" "}
                     <span className="text-[#FB675E]">best ideas</span>{" "}
                     <span className="text-[#2A2A2A]">your website</span>
@@ -67,7 +68,7 @@ function Header() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <p className="text-[18px] text-[#ff695f]">
+                  <p className="text-[20px] font-semibold text-[#ff695f]">
                     Welcome to Onix Digital
                   </p>
                 </div>
@@ -77,8 +78,9 @@ function Header() {
                     <span className="text-[#03A4ED] ml-2 ">
                       your website
                     </span>{" "}
-                    <span className="text-[#FB675E]"> the best in </span>{" "}
-                    <span className="text-[#2A2A2A]">SEO</span>
+                    <span className="text-[#2A2A2A]"> the best in </span>{" "}
+                    <span className="text-[#FB675E]">SEO</span>{" "}
+                    <span className="text-[#333]">?</span>
                   </p>
                 </div>
                 <div>
@@ -111,14 +113,17 @@ function Header() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <p className="text-[18px] text-[#ff695f]">Video Tutorials</p>
+                  <p className="text-[20px] font-semibold text-[#ff695f]">
+                    Video Tutorials
+                  </p>
                 </div>
                 <div>
                   <p className="text-[50px] font-bold">
                     <span className="text-[#2A2A2A]">Get the</span>
                     <span className="text-[#03A4ED] ml-2 ">best ideas</span>
-                    <span className="text-[#FB675E]">your website</span>{" "}
-                    <span className="text-[#2A2A2A]">for</span>
+                    <span className="text-[#2A2A2A] ml-2">for</span>
+                    <br />
+                    <span className="text-[#FB675E] ml-1">your website</span>
                   </p>
                 </div>
                 <div>

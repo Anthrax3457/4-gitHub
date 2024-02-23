@@ -108,7 +108,7 @@ const ProjectSlider = () => {
     ],
   };
   return (
-    <div className="slider-container">
+    <div id="portfolio" className="slider-container">
       <Slider {...settings} className="relative">
         {imagesSlide.map((slide, index) => {
           return (

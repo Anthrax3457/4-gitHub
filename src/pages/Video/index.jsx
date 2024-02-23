@@ -34,7 +34,7 @@ const ProjectVideo = () => {
   }
 
   return (
-    <section  className="projectVideo pl-[6%] py-[30px] w-full">
+    <section id="videos"  className="projectVideo pl-[6%] py-[30px] w-full">
       <div className="site-container w-full flex gap-[12px] max-[991px]:flex-col max-[991px]:gap-y-[30px]">
         <div
          data-aos="fade-right"

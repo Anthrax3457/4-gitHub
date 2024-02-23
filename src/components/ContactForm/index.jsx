@@ -7,7 +7,7 @@ import Imgs from "../../assets/images/contact-form-bg.png";
 
 function ContactForm() {
   return (
-    <div>
+    <div id="contact">
       <div className="TwoBG  w-full mt-[900px] h-[100vh]">
         <div className="Therr absolute w-full h-[100vh]">
           <div className="w-[85%] lg:flex block  m-auto">
