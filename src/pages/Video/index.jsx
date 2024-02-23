@@ -6,7 +6,6 @@ import AOS from "aos";
 import "./style.css";
 
 const ProjectVideo = () => {
-
   const [isActive, setIsActive] = useState("first");
   let url;
   let videoTitle;
@@ -34,10 +33,10 @@ const ProjectVideo = () => {
   }
 
   return (
-    <section id="videos"  className="projectVideo pl-[6%] py-[30px] w-full">
+    <section id="videos" className="projectVideo pl-[6%] py-[30px] w-full">
       <div className="site-container w-full flex gap-[12px] max-[991px]:flex-col max-[991px]:gap-y-[30px]">
         <div
-         data-aos="fade-right"
+          data-aos="fade-right"
           className="relative w-[856px] h-[675px] max-[1399px]:w-[736px] max-[1399px]:h-[675px] max-[1199px]:w-[616px] max-[991px]:w-[696px] max-[991px]:h-[500px] max-[767px]:w-[516px] max-[575px]:max-w-full"
         >
           <iframe
@@ -79,7 +78,7 @@ const ProjectVideo = () => {
           </div>
           <div
             onClick={() => setIsActive("second")}
-            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px] max-[478px]:h-[144px] max-[380px]:h-[126px] max-[330px]:h-[105px]" 
+            className="projects-block__item relative cursor-pointer w-full rounded-[23px] text-white h-[146px] max-[1399px]:h-[125px] max-[1199px]:h-[104px] max-[992px]:rounded-[50px] max-[991px]:h-[245px] max-[767px]:h-[181px] max-[575px]:h-[194px] max-[478px]:h-[144px] max-[380px]:h-[126px] max-[330px]:h-[105px]"
           >
             <div className="projects-block-overlay absolute top-0 left-0 rounded-tl-[23px] rounded-br-[23px] flex flex-col justify-center items-center max-[992px]:rounded-tl-[50px] max-[992px]:rounded-br-[50px]">
               <button className="text-white text-[20px] font-bold">
