@@ -2,6 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import img1 from "../../assets/images/portfolio-left-dec.png";
+import img1 from "../../assets/images/portfolio-01.jpg";
+import img2 from "../../assets/images/portfolio-02.jpg";
+import img3 from "../../assets/images/portfolio-03.jpg";
+import img4 from "../../assets/images/portfolio-04.jpg";
 
 // styles
 import "./style.css";
@@ -9,62 +14,62 @@ import "./style.css";
 const ProjectSlider = () => {
   const imagesSlide = [
     {
-      img: "portfolio-01.jpg",
+      img: img1,
       title: "First Project",
       type: "Digital Assets",
     },
     {
-      img: "portfolio-02.jpg",
+      img: img2,
       title: "Project Two",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-03.jpg",
+      img: img3,
       title: "Third Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-04.jpg",
+      img: img4,
       title: "Project Four",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-01.jpg",
+      img: img1,
       title: "Fifth Project",
       type: "Digital Assets",
     },
     {
-      img: "portfolio-02.jpg",
+      img: img2,
       title: "Sixth Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-03.jpg",
+      img: img3,
       title: "7th Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-04.jpg",
+      img: img4,
       title: "8th Project",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-01.jpg",
+      img: img1,
       title: "9th Project",
       type: "Digital Assets",
     },
     {
-      img: "portfolio-02.jpg",
+      img: img2,
       title: "Project Ten",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-03.jpg",
+      img: img3,
       title: "Project Eleven",
       type: "SEO & Marketing",
     },
     {
-      img: "portfolio-04.jpg",
+      img: img4,
       title: "12th Project",
       type: "SEO & Marketing",
     },
@@ -103,63 +108,34 @@ const ProjectSlider = () => {
     ],
   };
   return (
-    <>
-      <div className="slider-container">
-        <Slider {...settings} className="relative">
-          {imagesSlide.map((slide, index) => {
-            return (
-              <div
-                key={index}
-                className="flex justify-center rounded-[20px] px-[15px] transition-all duration-500"
-              >
-                <div className="project-slide relative mx-auto">
-                  <img
-                    src={`/images/${slide.img}`}
-                    alt=""
-                    className="rounded-[23px] w-full h-full object-cover transition-all duration-500"
-                  />
-                  <div className="swiper-slide-content absolute w-[239px] h-[210px] transition-all duration-500 bottom-[-240px] right-[30px]">
-                    <div className="inner-content absolute bottom-[30px] right-[30px] text-right text-white flex flex-col">
-                      <a href="#" className="font-bold text-[20px] mb-[15px]">
-                        {slide.title}
-                      </a>
-                      <span className="text-[15px]">{slide.type}</span>
-                    </div>
+    <div className="slider-container">
+      <Slider {...settings} className="relative">
+        {imagesSlide.map((slide, index) => {
+          return (
+            <div
+              key={index}
+              className="flex justify-center rounded-[20px] px-[15px] transition-all duration-500"
+            >
+              <div className="project-slide relative mx-auto">
+                <img
+                  src={slide.img}
+                  alt=""
+                  className="rounded-[23px] w-full h-full object-cover transition-all duration-500"
+                />
+                <div className="swiper-slide-content absolute w-[239px] h-[210px] transition-all duration-500 bottom-[-240px] right-[30px]">
+                  <div className="inner-content absolute bottom-[30px] right-[30px] text-right text-white flex flex-col">
+                    <a href="#" className="font-bold text-[20px] mb-[15px]">
+                      {slide.title}
+                    </a>
+                    <span className="text-[15px]">{slide.type}</span>
                   </div>
                 </div>
               </div>
-            );
-          })}
-        </Slider>
-      </div>
-      {/* <Swiper
-        slidesPerView={4}
-        spaceBetween={30}
-        navigation={true}
-        loop={true}
-        pagination={{
-          dynamicBullets: true,
-        }}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        {imagesSlide.map((slide, index) => {
-          return (
-            <SwiperSlide key={index} className="relative">
-              <img src={`/images/${slide.img}`} alt="" />
-              <div className="swiper-slide-content absolute w-[239px] h-[210px] transition-all duration-500 bottom-[-240px] right-[30px]">
-                <div className="inner-content absolute bottom-[30px] right-[30px] text-right text-white flex flex-col">
-                  <a href="#" className="font-bold text-[20px] mb-[15px]">
-                    {slide.title}
-                  </a>
-                  <span className="text-[15px]">{slide.type}</span>
-                </div>
-              </div>
-            </SwiperSlide>
+            </div>
           );
         })}
-      </Swiper> */}
-    </>
+      </Slider>
+    </div>
   );
 };
 

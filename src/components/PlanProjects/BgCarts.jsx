@@ -39,7 +39,7 @@ const BgCarts = () => {
       >
         <p className="font-bold text-[20px]"> Starter Plan</p>
         <del className="text-[16px]"> $160/mo</del>
-        <p className="text-[36px] font-extrabold text-[#FB6458] -mt-10">$140</p>
+        <p className="text-[36px] font-extrabold text-[#FB6458] -mt-10">$200</p>
         <div className="text-[#B2B2B2] grid gap-">
           <p> 10 Projects</p>
           <p> 100 GB space</p>
