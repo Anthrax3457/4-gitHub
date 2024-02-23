@@ -109,6 +109,17 @@ const ProjectSlider = () => {
   };
   return (
     <div id="portfolio" className="slider-container">
+      <section className="portfolio pt-[17px] flex flex-col items-center pb-[0px]">
+        <div className="portfolio__heading w-[636px] px-[50px] text-center mb-[60px] max-[991px]:w-[90%] max-[574px]:w-full max-[574px]:px-[12px]">
+          <h2 className="text-[30px] text-[#2a2a2a] capitalize leading-[1.46] font-bold mb-[-5px]">
+            Our Recent <span className="text-[#03a4ed]">Projects</span> & Case
+            Studies <span className="text-[#ff695f]">For Clients</span>
+          </h2>
+          <span className="text-[30px] uppercase font-bold text-[#ff695f] opacity-25">
+            Our Portfolio
+          </span>
+        </div>
+      </section>
       <Slider {...settings} className="relative">
         {imagesSlide.map((slide, index) => {
           return (
@@ -122,14 +133,16 @@ const ProjectSlider = () => {
                   alt=""
                   className="rounded-[23px] w-full h-full object-cover transition-all duration-500"
                 />
-                <div className="swiper-slide-content absolute w-[239px] h-[210px] transition-all duration-500 bottom-[-240px] right-[30px]">
-                  <div className="inner-content absolute bottom-[30px] right-[30px] text-right text-white flex flex-col">
-                    <a href="#" className="font-bold text-[20px] mb-[15px]">
-                      {slide.title}
-                    </a>
-                    <span className="text-[15px]">{slide.type}</span>
+                <a href="#">
+                  <div className="swiper-slide-content absolute w-[239px] h-[210px] transition-all duration-500 bottom-[-240px] right-[30px]">
+                    <div className="inner-content absolute bottom-[30px] right-[30px] text-right text-white flex flex-col">
+                      <a href="#" className="font-bold text-[20px] mb-[15px]">
+                        {slide.title}
+                      </a>
+                      <span className="text-[15px]">{slide.type}</span>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           );
