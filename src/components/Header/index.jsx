@@ -26,7 +26,9 @@ function Header() {
             >
               <SwiperSlide>
                 <div>
-                  <p className="text-[18px] text-[#ff695f]">Online Marketing</p>
+                  <p className="text-[20px] font-semibold text-[#ff695f]">
+                    Online Marketing
+                  </p>
                 </div>
                 <div>
                   <p className="text-[50px] font-bold">
@@ -66,7 +68,7 @@ function Header() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <p className="text-[18px] text-[#ff695f]">
+                  <p className="text-[20px] font-semibold text-[#ff695f]">
                     Welcome to Onix Digital
                   </p>
                 </div>
@@ -77,7 +79,8 @@ function Header() {
                       your website
                     </span>{" "}
                     <span className="text-[#2A2A2A]"> the best in </span>{" "}
-                    <span className="text-[#FB675E]" >SEO</span> <span className="text-[#333]">?</span>
+                    <span className="text-[#FB675E]">SEO</span>{" "}
+                    <span className="text-[#333]">?</span>
                   </p>
                 </div>
                 <div>
@@ -110,14 +113,17 @@ function Header() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <p className="text-[18px] text-[#ff695f]">Video Tutorials</p>
+                  <p className="text-[20px] font-semibold text-[#ff695f]">
+                    Video Tutorials
+                  </p>
                 </div>
                 <div>
                   <p className="text-[50px] font-bold">
                     <span className="text-[#2A2A2A]">Get the</span>
                     <span className="text-[#03A4ED] ml-2 ">best ideas</span>
-                    <span className="text-[#FB675E]">your website</span>{" "}
-                    <span className="text-[#2A2A2A]">for</span>
+                    <span className="text-[#2A2A2A] ml-2">for</span>
+                    <br />
+                    <span className="text-[#FB675E] ml-1">your website</span>
                   </p>
                 </div>
                 <div>
