@@ -8,12 +8,12 @@ import Rasm from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[334px]">
+    <div className="w-full h-[334px] mt-[680px] md:mt-0 lg:mt-0 xl:mt-0 xl:-ml-[2.5%]">
       <div
         style={{ marginInline: "5%" }}
-        className="grid grid-cols-1 text-start justify-items-start gap-4 lg:grid-cols-4 lg:justify-items-center"
+        className="grid grid-cols-1 text-start xl:ms-0 xl:me-0 justify-items-start gap-4 lg:grid-cols-4 lg:justify-items-center"
       >
-        <div>
+        <div className="xl:-ml-[9.5%]">
           <div className="text-start">
             <div>
               <img src={Rasm} alt="" />
@@ -26,18 +26,30 @@ const Footer = () => {
               <br />
             </div>
             <div className="flex gap-3">
-              <div className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]">
+              <a
+                href="#"
+                className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]"
+              >
                 <CgFacebook color="white" />
-              </div>
-              <div className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]">
+              </a>
+              <a
+                href="#"
+                className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]"
+              >
                 <AiOutlineTwitter color="white" />
-              </div>
-              <div className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]">
+              </a>
+              <a
+                href="#"
+                className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]"
+              >
                 <FaBehance color="white" />
-              </div>
-              <div className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]">
+              </a>
+              <a
+                href="#"
+                className="w-[32px] h-[32px] bg-[#03a4eD] rounded-full flex justify-center items-center cursor-pointer hover:bg-[#ff695f]"
+              >
                 <ImInstagram color="white" size={15} />
-              </div>
+              </a>
             </div>
             <br />
           </div>
@@ -45,7 +57,7 @@ const Footer = () => {
         <div>
           <div className="text-start">
             <div>
-              <p className="text-[18px] font-bold">Services</p>
+              <p className="text-[18px] font-bold text-[#333]">Services</p>
             </div>
             <br />
             <div className="text-[15px] text-[#afafaf] grid gap-5">
@@ -65,9 +77,9 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="text-start">
+          <div className="text-start xl:-ml-[40%]">
             <div>
-              <p className="text-[18px] font-bold">Community</p>
+              <p className="text-[18px] font-bold text-[#333]">Community</p>
             </div>
             <br />
             <div className="text-[15px] text-[#afafaf] flex flex-col gap-5">
@@ -86,22 +98,23 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-full xl:ml-[15%]">
           <div className="text-start ">
             <div>
-              <p className="text-[18px] font-bold">Subcribe Newsletters</p>
+              <p className="text-[18px] font-bold text-[#333]">
+                Subcribe Newsletters
+              </p>
             </div>
             <br />
             <div className="text-[15px] text-[#afafaf] grid gap-5 lg:w-[90%] xl:w-[88%] md:w-full w-[95%]">
               <p className="text-[15px]">
                 Get our latest news and ideas to your inbox
               </p>
-              <div className="w-full flex items-center justify-center bg-[#03A4ED] rounded-full px-[5%] h-[45px]">
+              <div className="w-full flex items-center mt-2 justify-center bg-[#03A4ED] rounded-full px-[5%] h-[45px]">
                 <input
                   type="text"
                   placeholder="Your Email"
                   className="lg:w-full md:w-[95%] xl:w-full outline-none sm:w-full w-full bg-[#03A4ED]   placeholder:text-white pl-7"
-            
                 />
                 <button className="absolute right-[14%] xl:right-[9.5%] lg:right-[4%] ">
                   <TbBrandTelegram size={20} color="white" />
@@ -113,7 +126,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center border-t justify-center my-16 pt-[2%] text-center">
-        <p className="text-[#afafaf] text-[15px] pb-[5%] lg:pb-[0%]">
+        <p
+          style={{ lineHeight: "2" }}
+          className="text-[#afafaf] text-[15px] pb-[5%] lg:pb-[0%]"
+        >
           Copyright © 2021 Onix Digital Co., Ltd. All Rights Reserved.
           <br />
           Designed by
