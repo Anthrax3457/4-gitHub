@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="w-full h-[334px]">
       <div
-        style={{ marginInlineStart: "5%", marginInlineEnd: "5%" }}
+        style={{ marginInline: "5%" }}
         className="grid grid-cols-1 text-start justify-items-start gap-4 lg:grid-cols-4 lg:justify-items-center"
       >
         <div>
