@@ -5,7 +5,7 @@ import Rasm3 from "../../assets/images/service-icon-02.png";
 import Rasm4 from "../../assets/images/service-icon-03.png";
 function Manage() {
   return (
-    <div className="flex justify-center my-20 w-full">
+    <div id="about" className="flex justify-center my-20 w-full">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:gap-24 xl:gap-10 items-center lg:ml-[4%]">
         <div>
           <img src={Rasm} alt="" />
